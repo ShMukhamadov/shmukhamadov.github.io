@@ -1168,3 +1168,7 @@ html.js [data-reveal].is-in { opacity: 1; transform: none; }
 .site-footer__copy a { color: var(--ink-2); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .site-footer__copy a:hover { color: var(--brand-ink); }
 .research-step__body > p.research__note, .prose > p.research__note { margin-top: 12px; font-size: 0.86rem; line-height: 1.55; color: var(--muted); }
+.gpa-years--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.gpa-years--3 { gap: 6px; }
+.gpa-years--3 li { padding: 10px 8px; }
+.gpa-years--3 span { white-space: nowrap; }
