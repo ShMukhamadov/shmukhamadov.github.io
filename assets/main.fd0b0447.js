@@ -88,7 +88,7 @@
     }, { rootMargin: margin });
     (targets || [...map.keys()].map((id) => d.getElementById(id))).forEach((s) => s && io.observe(s));
   };
-  if (d.body.classList.contains('is-home')) spy([...d.querySelectorAll('[data-nav-link]')], 'data-nav-link', '-45% 0px -50% 0px', [...d.querySelectorAll('main > section[id]')]);
+  if (d.body.classList.contains('is-home')) spy([...d.querySelectorAll('[data-nav-link]')], 'data-nav-link', '-30% 0px -60% 0px', [...d.querySelectorAll('main > section[id]')]);
   spy([...d.querySelectorAll('[data-toc-link]')], 'data-toc-link', '-25% 0px -65% 0px');
 
   /* ---------- Reveal on scroll ---------- */
