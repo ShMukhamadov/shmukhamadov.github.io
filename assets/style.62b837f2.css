@@ -1172,3 +1172,10 @@ html.js [data-reveal].is-in { opacity: 1; transform: none; }
 .gpa-years--3 { gap: 6px; }
 .gpa-years--3 li { padding: 10px 8px; }
 .gpa-years--3 span { white-space: nowrap; }
+.ielts-bands { margin-top: 2px; }
+.acad-card--ielts .acad-card__note { margin-top: 2px; }
+.ielts-bands { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.ielts-bands li { padding: 10px 8px; }
+.ielts-bands span { white-space: nowrap; font-size: 0.74rem; }
+@media (max-width: 380px) { .ielts-bands { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.acad-card--ielts .ielts-bands { align-self: stretch; }
